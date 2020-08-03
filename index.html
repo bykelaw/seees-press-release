@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Press Release</title>
+</head>
+
+<body>
+  <style>
+    :root {
+      box-sizing: border-box;
+    }
+
+    *,
+    ::before,
+    ::after {
+      box-sizing: inherit;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 100px 60px 7fr 90px;
+      height: max-content;
+      grid-gap: 10px;
+      color: rgb(31, 14, 14);
+      border: 2px solid black;
+      /* font-size: xx-small; */
+      width: 57vw;
+      margin: 0 auto;
+      padding: 1.5em;
+    }
+
+    .container::after {
+      content: '';
+      height: 3px;
+      width: 53vw;
+      background-color: black;
+      position: absolute;
+      top: 16px;
+    }
+
+    .container::before {
+      content: '';
+      height: 5px;
+      width: 53vw;
+      background-color: red;
+      position: absolute;
+      top: 160px;
+    }
+
+    .item1 {
+      padding: 1em;
+      font-size: large;
+      font-weight: 600;
+      line-height: 1.8;
+    }
+
+    .item2 {
+      grid-column: 3/4;
+      width: 115px;
+      justify-self: end;
+      align-self: start;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    .item3 {
+      grid-column: 1/-1;
+      align-self: end;
+      justify-self: center;
+      font-size: 1.0em;
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: underline;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+
+    .item4 {
+      word-spacing: 0.01em;
+      grid-column: 1/-1;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      line-height: 1.8;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+
+    .item5 {
+      display: grid;
+      grid-gap: 0.3em;
+      font-family: cursive;
+      grid-template-rows: repeat(3, 1em);
+    }
+
+    .item5>:first-child {
+      text-decoration: underline;
+    }
+
+    .item7 {
+      display: grid;
+      grid-template-rows: repeat(3, 2em);
+      font-family: cursive;
+    }
+  </style>
+  <div class="container">
+    <div class="item1">
+      <div>Press release</div>
+      <div>SEEES,3 August 2020</div>
+    </div>
+    <div class="item2">
+      <div>
+        <img src="/download.jpeg" alt="">
+      </div>
+    </div>
+    <div class="item3">
+      <di>SEEES announces the end and of a great tenure and the commencement of a new one</di>
+    </div>
+    <div class="item4">
+
+      <p>We will like to appreciate every one who has contributed to make the 2018/2019 session a great one; we are so
+        grateful for all your support as we know that we could not have made it through the session successfully without
+        your
+        help.</p>
+      <p> The end of the 2018/2019 came with a great challenge for everyone with the out break of the Covid 19 virus
+        postponing the the resumption of the next session indefinitely . We express our sincere apologies for that and
+        we would like to also remind you that this problem, just like many other problems we have encountered, came with
+        some opportunities and we would advice you make conscious effort to maximize those opportunities.</p>
+      <p>
+        The ending of the 2018/2019 session brought the tenure of the former SEEES president Ebunluwabi Alabi to an end.
+        Her
+        tenure ended successfully with SEEES experiencing progress both academically and socially. During her tenure
+        SEEES
+        had their Industrial Tour , in which students had the opportunity to visit the Coca Cola and the Gil Automation
+        Company. The that was immediately followed by the Novelty Match , SPAC, Charity Drive , SEEES Dinner( La Chipsa
+        de
+        Royal) which brought the SEEES week to and end. Finally before the end of the session the we had the SEEES
+        Picnic
+        which was one of the best we have ever had. We express our deep gratitude for all the hard work she has put in
+        to
+        ensure that all these events was a success. We wish her success and greater highs in her next phase of life.
+      </p>
+      <p>
+
+      </p>
+      <p>
+        Memoir is about handing over your life to someone and saying, this is what I went through, this is who I am, and
+        maybe you can learn something from it. In view of that SEEES would like to announce her new President Afariogun
+        Precious who would be building up on the experience of our former president along with his own wealth of
+        experience
+        to take SEEES to a greater height. We encourage the whole of SEEES to give him their fully support so that this
+        new
+        session would be a greater one.
+      </p>
+      <p>In conclusion I would like to implore all the SEEES members where every they are to embrace all the safety
+        habit and do their best to kept safe from this Covid-19 virus. I believe this plage would soon come to an end
+        and every would return to normal.</p>
+    </div>
+    <div class="item5">
+      <div>Contact</div>
+      <span>Twitter:<strong>@seees_ui</strong></span> <span> Intagram:<strong>@seees_UI</strong></span>
+    </div>
+    <div class="item6"></div>
+    <div class="item7"><span>SEEES President</span>
+      <span><strong>Afariogun Precious</strong></span>
+      <span><strong>09017024464</strong></span></div>
+  </div>
+</body>
+
+</html>
